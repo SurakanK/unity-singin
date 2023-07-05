@@ -60,7 +60,7 @@ public class FacebookLogin : MonoBehaviour
             var aToken = Facebook.Unity.AccessToken.CurrentAccessToken;
             // Print current access token's User ID
             Debug.Log(aToken.UserId);
-            Debug.Log(Json.SerializeToString(aToken));
+            Debug.Log(JsonUtility.ToJson(aToken));
             // Print current access token's granted permissions
             foreach (string perm in aToken.Permissions)
             {

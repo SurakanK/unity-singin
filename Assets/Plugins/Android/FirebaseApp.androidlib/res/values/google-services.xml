@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
-  <string name="gcm_defaultSenderId" translatable="false">1031787449628</string>
-  <string name="google_storage_bucket" translatable="false">tetriscombat-f316f.appspot.com</string>
-  <string name="project_id" translatable="false">tetriscombat-f316f</string>
-  <string name="google_api_key" translatable="false">AIzaSyBbfAtIY7jYKyoRo3TELteBCUxDKEYfm6U</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBbfAtIY7jYKyoRo3TELteBCUxDKEYfm6U</string>
-  <string name="google_app_id" translatable="false">1:1031787449628:android:72eff78607fc4e8802fed9</string>
-  <string name="default_android_client_id" translatable="false">1031787449628-bgenb9n8s961lh6ja4o3h4fhpcd701ca.apps.googleusercontent.com</string>
-  <string name="default_web_client_id" translatable="false">1031787449628-cshmincp727p312pvv4n6s8d486gtk9u.apps.googleusercontent.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">882689918491</string>
+  <string name="google_storage_bucket" translatable="false">adius-singin-test.appspot.com</string>
+  <string name="project_id" translatable="false">adius-singin-test</string>
+  <string name="google_api_key" translatable="false">AIzaSyCHw3gnMEGpr8omUtpjP_kqllt7lr_wAwk</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHw3gnMEGpr8omUtpjP_kqllt7lr_wAwk</string>
+  <string name="google_app_id" translatable="false">1:882689918491:android:3c9c769801db08f3635abe</string>
+  <string name="default_android_client_id" translatable="false">882689918491-a7fqtbqpbvbj0qs22o3fv2fthjipccmr.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">882689918491-oduvllgjb0pbadqgj4aorq1cjo9e52ni.apps.googleusercontent.com</string>
 </resources>
