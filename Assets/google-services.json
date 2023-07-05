@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "882689918491",
+    "project_id": "adius-singin-test",
+    "storage_bucket": "adius-singin-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882689918491:android:3c9c769801db08f3635abe",
+        "android_client_info": {
+          "package_name": "com.adius.singin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882689918491-a7fqtbqpbvbj0qs22o3fv2fthjipccmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adius.singin",
+            "certificate_hash": "b1c10642805e1e706d3b13d9fa63591fae8bd763"
+          }
+        },
+        {
+          "client_id": "882689918491-oduvllgjb0pbadqgj4aorq1cjo9e52ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHw3gnMEGpr8omUtpjP_kqllt7lr_wAwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882689918491-d5atr11h38c3m5j54qli4b0h0vsb5mn4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "882689918491-1b9bs7ifprncp76a72q3rdn1i55jcvim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adius.singin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

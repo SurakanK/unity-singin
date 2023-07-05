@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "882689918491",
+    "project_id": "adius-singin-test",
+    "storage_bucket": "adius-singin-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882689918491:ios:65c90e39d16322b1635abe",
+        "android_client_info": {
+          "package_name": "com.adius.singin"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjmpzSIl3PGgrwUDpK8Lo0jcz_eqwlkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882689918491-1b9bs7ifprncp76a72q3rdn1i55jcvim.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

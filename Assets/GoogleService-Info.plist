@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>882689918491-1b9bs7ifprncp76a72q3rdn1i55jcvim.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.882689918491-1b9bs7ifprncp76a72q3rdn1i55jcvim</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>882689918491-a7fqtbqpbvbj0qs22o3fv2fthjipccmr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsjmpzSIl3PGgrwUDpK8Lo0jcz_eqwlkU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>882689918491</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.adius.singin</string>
+	<key>PROJECT_ID</key>
+	<string>adius-singin-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adius-singin-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:882689918491:ios:65c90e39d16322b1635abe</string>
+</dict>
+</plist>
