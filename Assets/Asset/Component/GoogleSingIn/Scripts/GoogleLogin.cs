@@ -79,9 +79,9 @@ public class GoogleLogin : MonoBehaviour
         }
         else if (task.IsCompletedSuccessfully)
         {
-            AddStatusText("$name:" + task.Result.DisplayName);
-            AddStatusText("$email:" + task.Result.Email);
-            AddStatusText("$token:" + task.Result.IdToken);
+            AddStatusText("name:" + task.Result.DisplayName);
+            AddStatusText("email:" + task.Result.Email);
+            AddStatusText("token:" + task.Result.IdToken);
         }
     }
 

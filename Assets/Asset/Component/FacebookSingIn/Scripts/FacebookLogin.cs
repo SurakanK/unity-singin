@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Facebook.Unity;
-using GameDevWare.Serialization;
 
 public class FacebookLogin : MonoBehaviour
 {
@@ -59,8 +58,10 @@ public class FacebookLogin : MonoBehaviour
             // AccessToken class will have session details
             var aToken = Facebook.Unity.AccessToken.CurrentAccessToken;
             // Print current access token's User ID
-            Debug.Log(aToken.UserId);
-            Debug.Log(JsonUtility.ToJson(aToken));
+            Debug.Log("token:" + aToken.TokenString + "/n");
+            Debug.Log("Permissions:" + aToken.Permissions + "/n");
+            Debug.Log("UserId:" + aToken.UserId + "/n");
+
             // Print current access token's granted permissions
             foreach (string perm in aToken.Permissions)
             {
@@ -72,7 +73,7 @@ public class FacebookLogin : MonoBehaviour
             Debug.Log("User cancelled login");
         }
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         OnMessage();

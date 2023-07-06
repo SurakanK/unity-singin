@@ -5,6 +5,7 @@ using AppleAuth.Interfaces;
 using AppleAuth.Native;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Text;
 
 public class AppleLogin : MonoBehaviour
 {
@@ -107,7 +108,22 @@ public class AppleLogin : MonoBehaviour
 
     private void SetupGameMenu(string appleUserId, ICredential credential)
     {
-        //
+        var appleIdCredential = credential as IAppleIDCredential;
+        var passwordCredential = credential as IPasswordCredential;
+        if (appleIdCredential != null)
+        {
+            if (appleIdCredential.IdentityToken != null)
+            {
+                var identityToken = Encoding.UTF8.GetString(appleIdCredential.IdentityToken, 0, appleIdCredential.IdentityToken.Length);
+                Debug.Log("Token:" + identityToken);
+                Debug.Log("User:" + appleIdCredential.User);
+            }
+        }
+        else if (passwordCredential != null)
+        {
+            Debug.Log("User:" + passwordCredential.User);
+            Debug.Log("Password:" + passwordCredential.Password);
+        }
     }
 
     private void CheckCredentialStatusForUserId(string appleUserId)
